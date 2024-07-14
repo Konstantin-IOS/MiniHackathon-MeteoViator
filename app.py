@@ -7,8 +7,6 @@ import openmeteo_requests
 import requests_cache
 import numpy as np
 import altair as alt
-from streamlit_extras.let_it_rain import rain
-
 
 # Fest vorgegebene Koordinaten für Freiburg im Breisgau
 latitude = 47.997791
@@ -87,7 +85,10 @@ if st.button("Wetterdaten abrufen"):
         # Durchschnittswerte berechnen
         avg_temp = hourly_dataframe["temperature_2m"].mean()
         avg_wind_speed = hourly_dataframe["wind_speed_10m"].mean()
-        avg_sunshine_duration_per_day = hourly_dataframe["sunshine_duration"].sum() / 3600
+        
+        # Sonnenstunden pro Tag berechnen
+        daily_sunshine = hourly_dataframe.groupby(hourly_dataframe['date'].dt.date)["sunshine_duration"].sum()
+        avg_sunshine_duration_per_day = daily_sunshine.mean() / 3600
 
         col1, col2, col3 = st.columns(3)
         col1.metric(label="Durchschnitts-Temperatur", value=f"{avg_temp:.2f} °C")
