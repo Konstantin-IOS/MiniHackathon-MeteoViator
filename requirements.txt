@@ -1,0 +1,8 @@
+pandas
+retry-requests
+openmeteo-requests
+requests-cache
+numpy
+altair
+geopy
+streamlit-extras
