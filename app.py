@@ -7,6 +7,8 @@ import openmeteo_requests
 import requests_cache
 import numpy as np
 import altair as alt
+from streamlit_extras.let_it_rain import rain
+
 
 # Fest vorgegebene Koordinaten für Freiburg im Breisgau
 latitude = 47.997791
