@@ -2,6 +2,8 @@
 
 Meteo Viator (Latin for "Weather Traveler") is a simple and minimalist Python web application designed to provide retrospective weather data for any specified location and time period. Developed as a project for the first MiniHackathon organized by Kevin Chromik, this tool enables users to explore and compare historical weather data with ease.
 
+<img width="959" alt="Bildschirmfoto 2024-07-14 um 18 59 12" src="https://github.com/user-attachments/assets/9dee75f1-4035-43fe-b161-23af6f4b1e83">
+
 ## Project Overview
 
 Meteo Viator allows users to input a city, postal code, start date, and end date, and in return, it provides a comprehensive summary of the weather during that period. The application fetches historical weather data from the Open-Meteo API, displaying the following key metrics:
@@ -58,6 +60,10 @@ pip install streamlit pandas requests numpy altair requests-cache streamlit-extr
 ## Example Output
 
 Below is an example of the application in action:
+
+<img width="981" alt="Bildschirmfoto 2024-07-14 um 18 59 34" src="https://github.com/user-attachments/assets/cfa3e39f-3e62-4a32-8264-67ab3aeec8af">
+
+<img width="949" alt="Bildschirmfoto 2024-07-14 um 18 59 50" src="https://github.com/user-attachments/assets/e95203fa-cc36-4c21-82d6-242506289ef9">
 
 
 ## Deployment
