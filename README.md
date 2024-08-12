@@ -1,6 +1,3 @@
-Um die Bilder in deinem GitHub README kleiner darzustellen, kannst du die `img`-Tag in HTML verwenden, da Markdown an sich keine direkte Möglichkeit bietet, die Größe von Bildern zu ändern. Hier ist, wie du das bestehende README anpassen könntest, um die Bilder kleiner darzustellen:
-
-```markdown
 # Meteo Viator - The Virtual Weather Time Traveler
 
 Meteo Viator (Latin for "Weather Traveler") is a simple and minimalist Python web application designed to provide retrospective weather data for any specified location and time period. Developed as a project for the first MiniHackathon organized by Kevin Chromik, this tool enables users to explore and compare historical weather data with ease.
