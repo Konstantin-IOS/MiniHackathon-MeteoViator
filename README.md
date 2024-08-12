@@ -1,7 +1,3 @@
-Creating a high-quality GitHub README file involves clearly presenting the purpose of the project, instructions for setting it up, and highlighting key features. I'll structure the README so that it’s easy to understand for someone visiting your repository. Here’s how I would approach this:
-
----
-
 # Meteo Viator - The Virtual Weather Time Traveler
 
 Meteo Viator (Latin for "Weather Traveler") is a simple and minimalist Python web application designed to provide retrospective weather data for any specified location and time period. Developed as a project for the first MiniHackathon organized by Kevin Chromik, this tool enables users to explore and compare historical weather data with ease.
@@ -63,7 +59,6 @@ pip install streamlit pandas requests numpy altair requests-cache streamlit-extr
 
 Below is an example of the application in action:
 
-![Example Screenshot](path_to_screenshot)
 
 ## Deployment
 
@@ -77,10 +72,3 @@ You can also explore the application directly via Streamlit without setting up a
 - **Streamlit:** The application is built using the Streamlit framework for interactive data visualization.
 - **Flaticon:** The sun-cloud icon used in the app was sourced from Flaticon, created by [@iconixar](https://www.flaticon.com/authors/iconixar).
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This README file outlines the project’s purpose, setup instructions, and usage in a clear and concise manner. The section titles and explanations guide the user through understanding and using your app effectively.
