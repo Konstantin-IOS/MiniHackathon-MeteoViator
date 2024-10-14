@@ -1,4 +1,10 @@
-# Meteo Viator - The Virtual Weather Time Traveler
+```
+ _  _  ____  ____  ____  __     _  _  __   __  ____  __  ____ 
+( \/ )(  __)(_  _)(  __)/  \   / )( \(  ) / _\(_  _)/  \(  _ \
+/ \/ \ ) _)   )(   ) _)(  O )  \ \/ / )( /    \ )( (  O ))   /
+\_)(_/(____) (__) (____)\__/    \__/ (__)\_/\_/(__) \__/(__\_)
+```
+The Virtual Weather Time Traveler
 
 Meteo Viator (Latin for "Weather Traveler") is a simple and minimalist Python web application designed to provide retrospective weather data for any specified location and time period. Developed as a project for the first MiniHackathon organized by Kevin Chromik, this tool enables users to explore and compare historical weather data with ease.
 
